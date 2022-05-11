@@ -1,4 +1,3 @@
-# portfolio
 # PORFOLIO
 ## Encontrarás entre desafíos, entregas de proyectos finales y aplicaciones web producto de mi creatividad e ingenio.
 
