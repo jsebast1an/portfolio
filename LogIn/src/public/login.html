@@ -14,31 +14,38 @@
         <div class="card my-5">
             <div id="cardBox" class="card-body">
                 
-                <div id="error"></div>
+              <div id="error"></div>
                 
-                <form id="registerForm" action="/login" method="POST">
+              <form id="registerForm" action="/login" method="POST">
                     
-                    <div class="mb-3 text-center">
-                      <label for="username" class="form-label">Username</label>
-                      <input type="text" name="username" class="form-control" id="username" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
+                <div class="mb-3 text-center">
+                  <label for="username" class="form-label">Username</label>
+                  <input type="text" name="username" class="form-control" id="username" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your username with anyone else.</div>
+                </div>
 
-                    <div class="mb-3 text-center">
-                      <label for="password" class="form-label">Password</label>
-                      <input type="password" name="password" class="form-control" id="password">
-                    </div>
+                <div class="mb-3 text-center">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" name="password" class="form-control" id="password">
+                </div>
 
-                    <!-- <div class="mb-3 form-check">
-                      <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox">
-                      <label class="form-check-label" for="checkbox">I accept terms and conditions of use service.</label>
-                    </div> -->
-                    
-                    <div class="text-center">
-                        <input type="submit" class="btn btn-primary" value="Login">
-                    </div>
+                <!-- <div class="mb-3 form-check">
+                  <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox">
+                  <label class="form-check-label" for="checkbox">I accept terms and conditions of use service.</label>
+                </div> -->
+                
+                <div class="text-center">
+                    <input type="submit" class="btn btn-primary" value="Login">
+                </div>
 
-                  </form>
+              </form>
+              <hr>
+
+
+              <div class="m-3 d-flex justify-content-between">
+                <a href="/" class="btn btn-warning" >Home</a>
+                <a href="/signup" class="btn btn-success" >Sign Up</a>
+              </div>
             </div>
         </div>
     </div>
