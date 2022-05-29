@@ -22,7 +22,7 @@ router.use(session({
 
 router.get('/', (req, res) => {
     const user = req.session.user
-    if(user) res.sendFile('/public/logged.html', { root: __dirname })
+    if(user) return res.sendFile('/public/logged.html', { root: __dirname })
     res.redirect('/login')
     
 })
