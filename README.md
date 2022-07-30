@@ -11,7 +11,7 @@
 GITHUB: https://github.com/jsebast1an/LaFarola2
 
 #### Aplicación web construido con REACT JS:
-- URL: React App (flamboyant-perlman-99b3f2.netlify.app)
+- Netlify: https://flamboyant-perlman-99b3f2.netlify.app/
 - GITHUB: https://github.com/jsebast1an/Adidas
 
 #### Simulacion de chat construido con server express y socket.io:
